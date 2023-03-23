@@ -42,5 +42,5 @@ jobs:
           SCORECARD_INTERNAL_GITHUB_INTEGRATION: 1
           SCORECARD_INTERNAL_GITHUB_SARIF_TOOL_NAME: tool-name
           SCORECARD_INTERNAL_GITHUB_CHECKS: Binary-Artifacts, Security-Policy
-        uses: laurentsimon/scorecard-remediation-tests//actions/hello@main
+        uses: laurentsimon/scorecard-remediation-tests/actions/hello@main
         
