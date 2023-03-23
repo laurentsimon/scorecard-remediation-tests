@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet someone'
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        echo "SCORECARD_INTERNAL_GITHUB_INTEGRATION: $SCORECARD_INTERNAL_GITHUB_INTEGRATION"
+        echo "SCORECARD_INTERNAL_GITHUB_SARIF_TOOL_NAME: $SCORECARD_INTERNAL_GITHUB_SARIF_TOOL_NAME"
+        echo "SCORECARD_INTERNAL_GITHUB_CHECKS: $SCORECARD_INTERNAL_GITHUB_CHECKS"
+       
+    
